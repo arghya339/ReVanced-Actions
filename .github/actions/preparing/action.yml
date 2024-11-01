@@ -5,7 +5,7 @@ runs:
     - name: Set up jdk
       uses: actions/setup-java@v4.5.0
       with:
-        distribution: 'zulu'
+        distribution: 'temurin'
         java-version: '17'
 #    - name: Setup Cloudflare Warp
 #      shell: bash
