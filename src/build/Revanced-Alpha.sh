@@ -113,6 +113,7 @@ revanced_dl(){
 	patch "youtube-lite-alpha-arm64-v8a" "revanced"
 	# Patch YouTube Lite Armeabi-v7a:
 	get_patches_key "youtube-revanced"
+    version="19.41.41"
 	split_editor "youtube-lite-alpha" "youtube-lite-alpha-armeabi-v7a" "include" "split_config.armeabi_v7a split_config.en split_config.xxxhdpi"
 	patch "youtube-lite-alpha-armeabi-v7a" "revanced"
 }
@@ -127,6 +128,7 @@ revanced_dl(){
 	patch "youtube-music-alpha-arm64-v8a" "revanced"
 	# Armeabi-v7a
 	get_patches_key "youtube-music-revanced"
+    version="latest"
 	get_apk "com.google.android.apps.youtube.music" "youtube-music-alpha-armeabi-v7a" "youtube-music" "google-inc/youtube-music/youtube-music" "armeabi-v7a"
 	split_editor "youtube-lite" "youtube-lite-armeabi-v7a" "include" "split_config.armeabi_v7a split_config.en split_config.xxxhdpi"
 	patch "youtube-music-alpha-armeabi-v7a" "revanced"
