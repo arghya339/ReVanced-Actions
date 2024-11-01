@@ -18,6 +18,7 @@ on:
         options:
           - 'Revanced'
           - 'Revanced Beta'
+          - 'Revanced Alpha'
           - 'Revanced Extended'
           - 'Revanced Extended Beta'
           - 'Revanced Extended Reddit'
@@ -90,6 +91,32 @@ jobs:
         uses: ./.github/actions/release
       - name: Re-run workflow if github connection not stable
         if: always() && steps.patch-rvb.outcome == 'skipped' || steps.release-rvb.outcome == 'skipped' && env.retry_count < env.max_retries && matrix.run == '1'
+        uses: ./.github/actions/re-run
+  patch_rv_alpha:
+    name: Patch Revanced Alpha
+    if: ${{ github.event.inputs.org == 'Revanced Alpha' || inputs.org == 'Revanced Alpha' }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        run: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+      - name: Preparing to patch
+        uses: ./.github/actions/preparing
+      - name: Check github connection
+        id: check-gh-rva
+        run: bash src/etc/connection.sh
+      - name: Patch apk
+        id: patch-rva
+        if: steps.check-gh-rva.outputs.internet_error == '0'
+        run: bash src/build/Revanced-Alpha.sh ${{ matrix.run }}
+      - name: Releasing APK files
+        id: release-rva
+        if: steps.check-gh-rva.outputs.internet_error == '0'
+        uses: ./.github/actions/release
+      - name: Re-run workflow if github connection not stable
+        if: always() && steps.patch-rva.outcome == 'skipped' || steps.release-rva.outcome == 'skipped' && env.retry_count < env.max_retries && matrix.run == '1'
         uses: ./.github/actions/re-run
   patch_rve_anddea_stable:
     name: Patch RVX Anddea Stable

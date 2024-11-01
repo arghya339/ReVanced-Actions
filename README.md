@@ -48,21 +48,21 @@ Download
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
-| [Stable version](https://github.com/ReVanced/revanced-patches/releases/latest) | [Beta version](https://github.com/ReVanced/revanced-patches/releases)            |
-| -----------------------------------------------------------------------------  | -------------------------------------------------------------------------------- |
-| [All Architectures](../../releases/download/all/youtube-revanced.apk)          | [All Architectures](../../releases/download/all/youtube-beta-revanced.apk)       |
-| [Arm64-v8a](../../releases/download/all/youtube-arm64-v8a-revanced.apk)        | [Arm64-v8a](../../releases/download/all/youtube-beta-arm64-v8a-revanced.apk)     |
-| [Armeabi-v7a](../../releases/download/all/youtube-armeabi-v7a-revanced.apk)    | [Armeabi-v7a](../../releases/download/all/youtube-beta-armeabi-v7a-revanced.apk) |
-| [x86](../../releases/download/all/youtube-x86-revanced.apk)                    | [x86](../../releases/download/all/youtube-beta-x86-revanced.apk)                 |
-| [x86_64](../../releases/download/all/youtube-x86_64-revanced.apk)              | [x86_64](../../releases/download/all/youtube-beta-x86_64-revanced.apk)           |
+| [Stable version](https://github.com/ReVanced/revanced-patches/releases/latest) | [Beta version](https://github.com/ReVanced/revanced-patches/releases)            | [Alpha version](https://github.com/ReVanced/revanced-patches/releases?q=prerelease%3Atrue&expanded=true) |
+| -----------------------------------------------------------------------------  | -------------------------------------------------------------------------------- |  -------------------------------------------------------------------------------- |
+| [All Architectures](../../releases/download/all/youtube-revanced.apk)          | [All Architectures](../../releases/download/all/youtube-beta-revanced.apk)       | [All Architectures](../../releases/download/all/youtube-alpha-revanced.apk)                 |
+| [Arm64-v8a](../../releases/download/all/youtube-arm64-v8a-revanced.apk)        | [Arm64-v8a](../../releases/download/all/youtube-beta-arm64-v8a-revanced.apk)     | [Arm64-v8a](../../releases/download/all/youtube-alpha-arm64-v8a-revanced.apk)       |
+| [Armeabi-v7a](../../releases/download/all/youtube-armeabi-v7a-revanced.apk)    | [Armeabi-v7a](../../releases/download/all/youtube-beta-armeabi-v7a-revanced.apk) | [Armeabi-v7a](../../releases/download/all/youtube-alpha-armeabi-v7a-revanced.apk)     |
+| [x86](../../releases/download/all/youtube-x86-revanced.apk)                    | [x86](../../releases/download/all/youtube-beta-x86-revanced.apk)                 | [x86](../../releases/download/all/youtube-alpha-x86-revanced.apk)             |
+| [x86_64](../../releases/download/all/youtube-x86_64-revanced.apk)              | [x86_64](../../releases/download/all/youtube-beta-x86_64-revanced.apk)           | [x86_64](../../releases/download/all/youtube-alpha-x86_64-revanced.apk)          |
 
 <details>
   <summary>Lite version</summary>
   
-| [Stable version](https://github.com/ReVanced/revanced-patches/releases/latest)      | [Beta version](https://github.com/ReVanced/revanced-patches/releases)                 |
-| ----------------------------------------------------------------------------------  | ------------------------------------------------------------------------------------- |
-| [Arm64-v8a](../../releases/download/all/youtube-lite-arm64-v8a-revanced.apk)        | [Arm64-v8a](../../releases/download/all/youtube-lite-beta-arm64-v8a-revanced.apk)     |
-| [Armeabi-v7a](../../releases/download/all/youtube-lite-armeabi-v7a-revanced.apk)    | [Armeabi-v7a](../../releases/download/all/youtube-lite-beta-armeabi-v7a-revanced.apk) |
+| [Stable version](https://github.com/ReVanced/revanced-patches/releases/latest)      | [Beta version](https://github.com/ReVanced/revanced-patches/releases)                 | [Alpha version](https://github.com/ReVanced/revanced-patches/releases?q=prerelease%3Atrue&expanded=true) |
+| ----------------------------------------------------------------------------------  | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [Arm64-v8a](../../releases/download/all/youtube-lite-arm64-v8a-revanced.apk)        | [Arm64-v8a](../../releases/download/all/youtube-lite-beta-arm64-v8a-revanced.apk)     | [Arm64-v8a](../../releases/download/all/youtube-lite-alpha-arm64-v8a-revanced.apk)                   |
+| [Armeabi-v7a](../../releases/download/all/youtube-lite-armeabi-v7a-revanced.apk)    | [Armeabi-v7a](../../releases/download/all/youtube-lite-beta-armeabi-v7a-revanced.apk) | [Armeabi-v7a](../../releases/download/all/youtube-lite-alpha-armeabi-v7a-revanced.apk)                 |
 
 </details>
 
